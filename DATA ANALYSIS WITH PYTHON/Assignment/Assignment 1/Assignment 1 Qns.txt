@@ -1,0 +1,24 @@
+Numbers - Operations
+Strings - Operations
+Datetime, Timedelta - Operations
+Collections - Lists, Dictionaries, Tuples, Sets
+Logical Operators, Assignments
+Functions, If Loops, For Loops
+
+Problem
+
+- Any text of 500 words - cite the article
+
+Output:
+
+- Create a dictionary with words as keys and their counts as values, (i) sorted by keys (ii) sorted by values
+
+- Percentage of articles for every article (upto 2 decimals) (a, an , the) ex: there are 16.89% a's in the collected text
+
+- Create a function for the whole process
+
+-def func(text):
+	{
+	#function
+	}	
+

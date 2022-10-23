@@ -1,0 +1,36 @@
+NOTE: 
+1. Should not use pandas or any internal functions of pandas
+2. Must be solved using python basics only including but not limited to lists, sets, dictionaries, tuples, if loops, for loops, datetime, numpy
+
+
+Case:
+
+Given dataset consists of a sample of sales made at a retail store during 2011. It has 6 columns:
+
+1. InvoiceDate: The timestamp at which the bill is generated
+2. InvoiceNo: Serial number of the invoice generated (May or may not be unique in the sample)
+3. Quantity: Quantity of the product purchased
+4. CustomerID: Serial number of the customer in the database
+5. Unitprice: Price of one unit
+6. Stockcode: Product identification number (Lays/Milk Packets)
+
+
+Questions:
+
+1. Calculate
+
+	(a) How many unique dates are present in the dataset (Nov 1st is different from Oct 1st) Numerical
+	(b) How many different months are present in the dataset Numerical
+	
+2. Calculate the total revenue generated for each day in the dataset Dictionary Output
+    HINT: Revenue = Quantity * Unitprice
+	
+3. Calculate average revenue generated per invoice for each day. HINT: (total revenue per day / #unique invoice numbers) Dictionary output
+
+4. Highest and least quantity for each month is to be calculated (List/Dict)
+
+5. Maximum and minimum counts of invoices per day in a month for all months and also respective dates are to be captured
+Ex: Oct month max unique invoice count is on 25th OCT and the count is 10, min invoice count is on 4th OCT and the count is 2
+
+6. Maximum and minimum counts of customers per day in a month for all months and also respective dates are to be captured
+Ex: Oct month max  unique customer count is on 25th OCT, min invoice count is on 4th OCT
